@@ -1,6 +1,6 @@
 class DirectorsController < ApplicationController
   def index
-      render({ :template => "director_templates/lists"})
+      render({ :template => "director_templates/list"})
   end
 
   def show
